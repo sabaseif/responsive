@@ -1,0 +1,101 @@
+.center {
+    width: 70vw;
+    background-color: #b3da9b;
+    margin: 4em;
+    padding: 3em;
+    color: #265911;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.center h2 {
+    margin: 1em 0;
+    font-size: 50px;
+}
+
+.center p {
+    margin: .5em 0;
+    font-size: 25px;
+}
+
+.center form {
+    margin: 3.5em;
+}
+
+.center input {
+    padding: .8em;
+    width: 30em;
+    background-color: #fefaef;
+    border: 2px solid #2f4130;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+textarea {
+    padding: .8em;
+    width: 30em;
+    background-color: #fefaef;
+    border: 2px solid #2f4130;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.center label {
+    margin-top: 1em;
+}
+
+#send {
+    width: 30em;
+    font-size: 15.9px;
+    margin-top: 2em;
+    background-color: #2f4130;
+    color: #b3da9b;
+    border-radius: 5px;
+}
+
+.center label::after {
+    content: "*";
+    color: red;
+}
+
+@media screen and (max-width:890px) {
+    .center p {
+        font-size: 3.5vw;
+    }
+
+    .center label {
+        font-size: 3vw;
+    }
+
+    .center input {
+        font-size: 2.5vw;
+        width: 50vw;
+    }
+
+    .center textarea {
+        font-size: 2.5vw;
+        width: 50vw;
+    }
+
+    #send {
+        font-size: 3vw;
+        width: 54vw;
+    }
+}
+
+@media screen and (max-width:725px) {
+    .center label {
+        font-size: 3.5vw;
+    }
+
+    .center p {
+        font-size: 4vw;
+    }
+
+    .center form {
+        margin: 1em;
+    }
+}

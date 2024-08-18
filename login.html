@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/foot.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <script src="assets/javascript/nav.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="menu"><img src="assets/images/menu.jpg" alt="menu" onclick="myMenu()"></div>
+        <div class="navbar" id="menuBar">
+            <div class="nav_1">
+                <a href="login.html">Account</a>
+                <a href="shop.html">Shop Now</a>
+            </div>
+            <div class="nav_2">
+                <a href="index.html">
+                    <p>QUITE.NICE</p>
+                </a>
+            </div>
+            <div class="nav_1">
+                <a href="contact.html">Contact</a>
+                <a href="about.html">About</a>
+            </div>
+        </div>
+        <hr>
+    </nav>
+    <main>
+        <div class="main">
+            <!-- start text section -->
+            <div class="text">
+                <h2>Create your account</h2>
+                <p>Let's get started with your 30 days free trial</p>
+                <!-- start login form -->
+                <form action="/a.php" method="get" autocomplete="off">
+                    <div>
+                        <div><label for="name">Name</label></div>
+                        <div><input type="text" id="name" name="name" placeholder="Enter your name" class="box"></div>
+                    </div>
+                    <div>
+                        <div><label for="email">Email</label></div>
+                        <div><input type="text" id="email" name="email" placeholder="Enter your email" class="box">
+                        </div>
+                    </div>
+                    <div>
+                        <div><label for="password">Password</label></div>
+                        <div><input type="password" id="password" placeholder="Enter your password" class="box"></div>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="privacy">
+                        <label for="privacy">I agree to all Term, Privacy Policy and Fees</label>
+                    </div>
+                    <div><button type="submit" class="sign">Create account</button></div>
+                    <div class="end">
+                        <p>Already have an account?</p>
+                        <a href="#">Log in</a>
+                    </div>
+                </form>
+                <!-- end login form -->
+                <!-- start horizintal or -->
+                <div class="horizintal">
+                    <hr>
+                    <p>Or register with</p>
+                    <hr>
+                </div>
+                <!-- end horizintal or -->
+                <!-- start google button -->
+                <div class="register">
+                    <button type="submit" class="google">
+                        <div class="google-img"><img src="assets/images/google.png" alt="google"></div>Google
+                    </button>
+                    <button type="submit" class="google">
+                        <div class="google-img"><img src="assets/images/apple.png" alt="apple"></div>Apple
+                    </button>
+                </div>
+                <!-- end google button -->
+            </div>
+            <!-- end text section -->
+            <div class="picture">
+                <img src="assets/images/login2.jpeg" alt="breakfast">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="col">
+            <div class="email">
+                <form action="/b.php" method="get">
+                    <label for="email">SIGN UP FOR OUR NEWSLETTER</label>
+                    <input type="text" id="email" value="Email address" name="email">
+                    <div class="inside">
+                        <p>Need some help?</p>
+                        <a href="#">Get in touch</a>
+                    </div>
+                </form>
+            </div>
+            <div class="service">
+                <ul>
+                    <li><a href="#">Our Science</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <div class="icon"><a href="#"><img src="assets/images/instagram.png" alt="instagram"></a></div>
+                <div class="icon"><a href="#"><img src="assets/images/tiktok.jpeg" alt="tiktok"></a></div>
+            </div>
+        </div>
+        <div class="site">
+            <p>QUITE.NICE</p>
+        </div>
+    </footer>
+</body>
+
+</html>

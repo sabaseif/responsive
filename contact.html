@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/foot.css">
+    <script src="assets/javascript/nav.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="menu"><img src="assets/images/menu.jpg" alt="menu" onclick="myMenu()"></div>
+        <div class="navbar" id="menuBar">
+            <div class="nav_1"><a href="login.html">Account</a> <a href="shop.html">Shop Now</a></div>
+            <div class="nav_2">
+                <a href="index.html">
+                    <p>QUITE.NICE</p>
+                </a>
+            </div>
+            <div class="nav_1"><a href="contact.html">Contact</a><a href="about.html">About</a></div>
+        </div>
+        <hr>
+    </nav>
+    <main>
+        <div class="center">
+            <h2>How can we help?</h2>
+            <p>We're here to support you along the way.</p>
+            <form action="/b.php" method="get" autocomplete="off">
+                <label for="email">Enter Your Email:</label>
+                <input type="text" name="email" placeholder="Email Address">
+                <label for="your-text">Descriptions:</label>
+                <textarea name="description_text" id="description_text" rows="8" cols="1"
+                    placeholder="What can we help with?"></textarea>
+                <input type="submit" value="send" id="send">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="col">
+            <div class="email">
+                <form action="/b.php" method="get">
+                    <label for="email">SIGN UP FOR OUR NEWSLETTER</label>
+                    <input type="text" id="email" value="Email address" name="email">
+                    <div class="inside">
+                        <p>Need some help?</p>
+                        <a href="#">Get in touch</a>
+                    </div>
+                </form>
+            </div>
+            <div class="service">
+                <ul>
+                    <li><a href="#">Our Science</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Account</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <div class="icon"><a href="#"><img src="assets/images/instagram.png" alt="instagram"></a></div>
+                <div class="icon"><a href="#"><img src="assets/images/tiktok.jpeg" alt="tiktok"></a></div>
+            </div>
+        </div>
+        <div class="site">
+            <p>QUITE.NICE</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
